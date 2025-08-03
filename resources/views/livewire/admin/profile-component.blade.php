@@ -1,7 +1,6 @@
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-
             <div class="card mb-4">
                 <div class="card-body">
                     <h4 class="card-title">User Profile</h4>
@@ -31,7 +30,7 @@
                             </div>
                             <div class="mb-3">
                                 <strong>Looking For:</strong>
-                                <p class="mb-0">{{ ucfirst($user->area->name) ?? 'Not Provided' }}</p>
+                                <p class="mb-0">{{ ucfirst($user?->area?->name) ?? 'Not Provided' }}</p>
                             </div>
                         </div>
                     </div>

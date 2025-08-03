@@ -1,5 +1,4 @@
 <?php
-
 use App\Http\Controllers\StripeController;
 use App\Livewire\Actions\Logout;
 use App\Livewire\Admin\Amenity\AmenityComponent;
