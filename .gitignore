@@ -34,7 +34,6 @@ Thumbs.db
 
 # Git
 *.log
-*.sql
 *.sqlite
 *.sqlite3
 *.bak
